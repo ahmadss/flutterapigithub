@@ -30,9 +30,6 @@ class ContributorRepositoryImpl implements ContributorRepository {
       return responsec.data;
     } else {
       throw Exception();
-      // var data = json.decode(response.body);
-      // EventSaveResponse eventSaveResponse = EventSaveResponse.fromJson(data);
-      // return eventSaveResponse;
     }
   }
 }

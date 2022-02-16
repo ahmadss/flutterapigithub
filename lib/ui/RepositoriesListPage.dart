@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:lazy_load_scrollview/lazy_load_scrollview.dart';
 import 'package:testgithub/bloc/bloc/RepositoriesBloc.dart';
-import 'package:testgithub/bloc/bloc/RepositoriesState.dart';
+import 'package:testgithub/bloc/state/RepositoriesState.dart';
 import 'package:testgithub/bloc/event/RepositoriesEvent.dart';
 import 'package:testgithub/model/RepositoriesModel.dart';
 import 'package:testgithub/repository/RepositoriesRepository.dart';

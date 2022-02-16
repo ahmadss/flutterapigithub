@@ -1,6 +1,6 @@
 import 'package:bloc/bloc.dart';
 import 'package:rxdart/rxdart.dart';
-import 'package:testgithub/bloc/bloc/RepositoriesState.dart';
+import 'package:testgithub/bloc/state/RepositoriesState.dart';
 import 'package:testgithub/bloc/event/RepositoriesEvent.dart';
 import 'package:testgithub/model/RepositoriesModel.dart';
 import 'package:testgithub/repository/RepositoriesRepository.dart';
